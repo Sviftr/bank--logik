@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: url(./img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.form {
+    width: 600px;
+    padding: 30px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000;
+    background-color: #00000067;
+}
+
+.form__title {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form__lable {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__email {
+    transition: 0.7s;
+    padding: 20px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.form__pas {
+    transition: 0.7s;
+    padding: 20px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.form__pas:focus {
+    border: 1px solid rgba(109, 158, 227, 0.47);
+    border-radius: 20px;
+    background-color: #00000036
+}
+
+
+.form__email:focus {
+    border: 1px solid rgba(109, 158, 227, 0.47);
+    border-radius: 20px;
+    background-color: #00000036
+}
+
+.form__email::placeholder {
+    color: #fff;
+}
+
+.form__btn {
+    padding: 25px 50px 25px 50px;
+    background-color: #0000005e;
+    border: 1px solid rgba(234, 158, 132, 0.733);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.7s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form__btn:hover {
+    transform: scale(1.1);
+    border: 1px solid rgba(132, 210, 234, 0.664);
+    background-color: #00000036;
+}
+
+
+
+.form__pas.active {
+    box-shadow: 1px 1px 10px #00ff00;
+    transition: 0.7s;
+}
+
+.form__pas.deactive {
+    box-shadow: 1px 1px 10px #ff0000;
+    transition: 0.7s;
+}
+
+
+.form__email.active {
+    box-shadow: 1px 1px 10px #00ff00;
+    transition: 0.7s;
+}
+
+.form__email.deactive {
+    box-shadow: 1px 1px 10px #ff0000;
+    transition: 0.7s;
+}
+/* register */
+.form__register {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.form__checked {
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.form__register .form__lable{
+    text-align: right;
+    font-size: 13px;
+}
+
+
+.form__name {
+    transition: 0.7s;
+    padding: 20px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.form__name:focus {
+    border: 1px solid rgba(109, 158, 227, 0.47);
+    border-radius: 20px;
+    background-color: #00000036
+}
+
+.form__name::placeholder {
+    color: #fff;
+}
+
+.form__phone {
+    transition: 0.7s;
+    padding: 20px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+}
+
+.form__phone.active {
+    box-shadow: 1px 1px 10px #00ff00;
+    transition: 0.7s;
+}
+
+.form__phone.deactive {
+    box-shadow: 1px 1px 10px #ff0000;
+    transition: 0.7s;
+}
+
+.form__phone:focus {
+    border: 1px solid rgba(109, 158, 227, 0.47);
+    border-radius: 20px;
+    background-color: #00000036
+}
+
+.form__phone::placeholder {
+    color: #fff;
+}
+
+.form__modal-1 {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    padding: 30px;
+    transition: 0.9s;
+    background-color: rgb(81, 79, 230);
+    border: 3px solid #000000;
+    border-radius: 30px 0 30px 0;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal__gif-1 {
+    width: 300px;
+    padding: 10px;
+}
+
+.form__modal-2 {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    padding: 30px;
+    transition: 0.9s;
+    background-color: rgb(81, 79, 230);
+    border: 3px solid #000000;
+    border-radius: 30px 0 30px 0;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal__gif-2 {
+    width: 300px;
+    padding: 10px;
+}
+
+.form__modal-3 {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    padding: 30px;
+    transition: 0.9s;
+    background-color: rgb(81, 79, 230);
+    border: 3px solid #000000;
+    border-radius: 30px 0 30px 0;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal__gif-3 {
+    width: 300px;
+    padding: 10px;
+}
+
+.form__modal-4 {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    padding: 30px;
+    transition: 0.9s;
+    background-color: rgb(81, 79, 230);
+    border: 3px solid #000000;
+    border-radius: 30px 0 30px 0;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal__gif-4 {
+    width: 300px;
+    padding: 10px;
+}
+
+.form__modal-5 {
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    padding: 30px;
+    transition: 0.9s;
+    background-color: rgb(81, 79, 230);
+    border: 3px solid #000000;
+    border-radius: 30px 0 30px 0;
+    letter-spacing: 2px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.modal__gif-5 {
+    width: 300px;
+    padding: 10px;
+}
+
+.form__modal-1.new {
+    opacity: 1;
+    top: 9px;
+}
+.form__modal-2.new {
+    opacity: 1;
+    top: 9px;
+}
+.form__modal-3.new {
+    opacity: 1;
+    top: 9px;
+}
+.form__modal-4.new {
+    opacity: 1;
+    top: 9px;
+}
+.form__modal-5.new {
+    opacity: 1;
+    top: 9px;
+}
+
+
+
+
+
+    @media (max-width: 900px) {
+        
+        .form {
+            width: 500px;
+            padding: 10px;
+        }
+
+        .form__lable {
+            margin: 0;
+        }
+
+        body {
+            background: url(./img/pexels-artem-saranin-1152707.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            overflow: hidden;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .form {
+            width: 400px;
+            padding: 10px;
+        }
+    }
+
+    @media (max-width: 430px) {
+        .form {
+            width: 350px;
+            padding: 10px;
+        }
+
+        .form__btn {
+            margin: 10px auto;
+            padding: 10px 30px 10px 30px;
+        }
+    }
+
+    @media (max-width: 330px) {
+        .form {
+            width: 290px;
+            margin: 8px auto;
+        }
+    }

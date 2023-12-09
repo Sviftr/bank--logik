@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: url(./img/324632.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* HEADER */
+
+.header {
+    width: 98%;
+    margin: 0 auto; 
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 10px #000;
+    background-color: #591fce28;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+}
+
+.nav__logo {
+    width: 150px;
+    padding: 18px 20px 18px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-item a{
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Solway', serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN */
+
+.main {
+    width: 100%;
+    margin: 200px auto;
+}
+
+.carousel-control-prev-icon {
+    border-radius: 10px;
+    background-color: #591fce98;
+    box-shadow: 0 0 20px #000000;
+}
+
+.carousel-control-next-icon {
+    border-radius: 10px;
+    background-color: #591fce98;
+    box-shadow: 0 0 20px #000000;
+}
+
+/* ALL CARDS */
+
+.card__0 {
+    width: 650px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(100deg, #0e0d1e 0%, #0d0d17 50%, #0b081f 100%) */
+}
+
+.card__1 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__2 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__3 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__4 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__5 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__6 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__7 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(8\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__8 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(9\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__9 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(11\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__10 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(12\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__11 {
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 2px #000;
+    background: url(./img/cvi\ \(13\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__header {
+    width: 100%;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__logo-info {
+    display: flex;
+    align-items: center;
+}
+
+.card__nikname {
+    font-family: 'Solway', serif;
+    color: #ffffff;
+}
+
+.card__logo-text {
+    font-family: 'Solway', serif;
+    color: #ffffff;
+}
+
+.card__logo {
+    width: 30px;
+    padding: 3px;
+}
+
+.card__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.card__chip {
+    width: 90px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.card__number {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Solway', serif;
+}
+
+.card__water-marks {
+    width: 100%;
+    display: flex;
+    padding: 40px 30px 10px 30px;
+    color: #fcfcfc;
+    font-family: 'Solway', serif;
+    justify-content: space-between;
+}
+
+.card__CV {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card__data {
+
+}
+
+.card__footer {
+    width: 100%;
+    color: #fcfcfc;
+    display: flex;
+    font-family: 'Solway', serif;
+}
+
+.card__owner {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 10px 10px 90px 30px;
+}
+
+.card__sur-name {
+    font-size: 20px;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 10px 0 10px 0;
+}
+
+.main__inputs-blok {
+    width: 90%;
+    position: relative;
+    left: -3000px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    transition: 2s;
+    box-shadow: 0 0 10px #000;
+    background-color: #591fce28;
+}
+
+.main__inputs-blok.block {
+    left: 0;
+}
+
+
+
+.main__inputs-blok input {
+    border-radius: 8px;
+    margin: 10px;
+    color: #fff;
+    padding: 4px;
+    box-shadow: 0 0 10px #000;
+    background-color: rgba(230, 0, 255, 0.292);
+    /* background: linear-gradient(194deg, rgba(92, 37, 141, 0.534) , #4389a2b8); */
+}
+
+.btn__nik-number {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+.btn__namber {
+    width: 200px;
+    box-shadow: 0 0 10px #000;
+    color: #fcfcfc;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 10px 20px 10px 20px;
+    font-family: 'Solway', serif;
+    background-color: rgba(230, 0, 255, 0.292);
+    transition: 0.7s;
+}
+
+.btn__namber:hover {
+    background-color: rgba(0, 255, 247, 0.395);
+}
+
+.int__blok-CV-data {
+    display: flex;
+}
+
+.btn__nik-CV {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+.btn__CV {
+    width: 200px;
+    box-shadow: 0 0 10px #000;
+    color: #fcfcfc;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 10px 20px 10px 20px;
+    font-family: 'Solway', serif;
+    background-color: rgba(230, 0, 255, 0.292);
+    transition: 0.7s;
+}
+
+.btn__CV:hover {
+    background-color: rgba(0, 255, 247, 0.395);
+}
+
+
+.int__nik-data {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+
+.int__nik-name {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+.int__nik-surName {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+.int__info {
+    color: #fcfcfc;
+    opacity: 0;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+
+.int__blok-checkbox-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.checkbox__total {
+    display: flex;
+}
+
+
+.checked__nik {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    font-family: 'Solway', serif;
+}
+
+.int__chechbox {
+    margin: 10px;
+    padding: 10px;
+}
+
+.int__button {
+    width: 200px;
+    box-shadow: 0 0 10px #000;
+    color: #fcfcfc;
+    font-size: 20px;
+    font-family: 'Solway', serif;
+    background-color: rgba(230, 0, 255, 0.292);
+}
+
+.text__block-last {
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 20px;
+    transition: 0.7s;
+    opacity: 0;
+    text-align: center;
+    font-family: 'Solway', serif;
+    margin: 100px auto;
+}
+
+.text__block-last.block1 {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODAL BLOK ALL */
+
+
+
+.modal__blok {
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    background-color: #591fce98;
+    left: 26%;
+    width: 700px;
+    transition: 0.7s;
+    display: none;
+    text-align: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 8px solid rgba(230, 0, 255, 0.292);
+}
+
+
+.modal__blok.modActive {
+    opacity: 1;
+}
+
+.modal__title {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Solway', serif;
+}
+
+.modal__gif {
+    width: 100px;
+    margin: 0 0 0 190px;
+}   
+
+.modal__btn {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 0 2% 80%;
+    color: #fff;
+    box-shadow:  0 0 8px #000;
+    font-size: 15px;
+    font-family: 'Solway', serif;
+    background-color: #d400ff98;
+}
+
+.nav-name {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Solway', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mod-1 {
+
+    color: #fff;
+    font-family: 'Solway', serif;
+    width: 500px;
+    background-color: #d400ff98;
+    display: none;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mod-1 iframe {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.mod-title {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 800px) {
+
+        .card__0 {
+            width: 600px;
+        }
+
+        .int__info {
+            display: none;
+        }
+    }
+
+    @media (max-width: 780px) {
+        .card__0 {
+            width: 530px;
+        }
+    }
